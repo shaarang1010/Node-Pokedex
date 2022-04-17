@@ -13,4 +13,4 @@ const getPokemonByType = (type) => {
   return pokemonList.filter((item) => item.type.includes(type));
 };
 
-export default { getPokemonByID, getPokemonByName, getPokemonByType };
+module.exports = { getPokemonByID, getPokemonByName, getPokemonByType };
